@@ -1,0 +1,31 @@
+package com.example.android.earthquakeapp;
+
+public class details {
+private double mMag;
+private String mLocation;
+private long mDate;
+private String mUrl;
+public details(double mag,String location,long date,String url)
+{
+    mMag=mag;
+    mLocation=location;
+    mDate=date;
+    mUrl=url;
+}
+
+    public double getmMag() {
+        return mMag;
+    }
+
+    public long getmDate() {
+        return mDate;
+    }
+
+    public String getmLocation() {
+        return mLocation;
+    }
+
+    public String getmUrl() {
+        return mUrl;
+    }
+}
